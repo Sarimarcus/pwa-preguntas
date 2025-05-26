@@ -103,18 +103,13 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
               />
               {/* Progress circle */}
               <path
-                className={`${getScoreColor()} drop-shadow-md`}
+                className={`${getScoreColor()} drop-shadow-md transition-all duration-1000 ease-out`}
                 stroke="currentColor"
                 strokeWidth="2.5"
                 strokeLinecap="round"
                 fill="transparent"
                 strokeDasharray={`${percentage}, 100`}
                 d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
-                style={{
-                  animation: 'progressFill 1.5s ease-out forwards',
-                  strokeDasharray: '0, 100',
-                  animationDelay: '0.5s'
-                }}
               />
             </svg>
             <div className="absolute inset-0 flex items-center justify-center z-20">
