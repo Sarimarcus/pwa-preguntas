@@ -36,13 +36,13 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
 
   const getBackgroundGradient = () => {
     if (isWin) {
-      return "from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20";
+      return "from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 border-green-200/50 dark:border-green-700/50";
     }
-    return "from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20";
+    return "from-red-50 to-orange-50 dark:from-red-900/20 dark:to-orange-900/20 border-red-200/50 dark:border-red-700/50";
   };
 
   return (
-    <div className={`bg-gradient-to-br ${getBackgroundGradient()} backdrop-blur-lg rounded-3xl shadow-2xl border border-white/20 p-4 sm:p-6 lg:p-8 text-center relative overflow-hidden animate-in slide-in-from-bottom-4 duration-500`}>
+    <div className={`bg-gradient-to-br ${getBackgroundGradient()} backdrop-blur-lg rounded-3xl shadow-2xl border p-4 sm:p-6 lg:p-8 text-center relative overflow-hidden animate-in slide-in-from-bottom-4 duration-500`}>
       {/* Decorative Elements */}
       <div className="absolute top-0 left-0 w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-br from-white/10 to-transparent rounded-full -translate-x-12 -translate-y-12 sm:-translate-x-16 sm:-translate-y-16"></div>
       <div className="absolute bottom-0 right-0 w-16 h-16 sm:w-24 sm:h-24 bg-gradient-to-tl from-white/10 to-transparent rounded-full translate-x-8 translate-y-8 sm:translate-x-12 sm:translate-y-12"></div>
@@ -64,7 +64,7 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 lg:space-x-8">
             {/* Score Fraction */}
             <div className="text-center">
-              <div className={`text-3xl sm:text-4xl lg:text-5xl font-black ${getScoreColor()} bg-gradient-to-b from-current to-current/80 bg-clip-text text-transparent`}>
+              <div className={`text-3xl sm:text-4xl lg:text-5xl font-black ${getScoreColor()}`}>
                 {score}/{totalQuestions}
               </div>
               <div className="text-xs sm:text-sm text-gray-700 dark:text-gray-400 font-medium">
@@ -78,7 +78,7 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
 
             {/* Percentage */}
             <div className="text-center">
-              <div className={`text-3xl sm:text-4xl lg:text-5xl font-black ${getScoreColor()} bg-gradient-to-b from-current to-current/80 bg-clip-text text-transparent`}>
+              <div className={`text-3xl sm:text-4xl lg:text-5xl font-black ${getScoreColor()}`}>
                 {percentage}%
               </div>
               <div className="text-xs sm:text-sm text-gray-700 dark:text-gray-400 font-medium">
@@ -118,7 +118,7 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
               />
             </svg>
             <div className="absolute inset-0 flex items-center justify-center z-20">
-              <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 flex items-center justify-center shadow-lg border border-white/30">
+              <div className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-full w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 flex items-center justify-center shadow-lg border border-gray-200/50 dark:border-white/30">
                 <span className={`text-lg sm:text-xl lg:text-2xl font-black ${getScoreColor()}`}>
                   {percentage}%
                 </span>
@@ -130,14 +130,14 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
 
       {/* Performance Feedback */}
       <div className="mb-6 sm:mb-8 relative z-10">
-        <div className="bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-white/30 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
+        <div className="bg-white/80 dark:bg-gray-800/60 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-gray-200/50 dark:border-white/30 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
           <div className="flex items-center justify-center space-x-2 sm:space-x-3 mb-3">
             <span className="text-xl sm:text-2xl">📊</span>
             <h3 className="font-bold text-gray-900 dark:text-white text-base sm:text-lg">
               Performance Analysis
             </h3>
           </div>
-          <div className="text-sm sm:text-base text-gray-600 dark:text-gray-400 font-medium leading-relaxed">
+          <div className="text-sm sm:text-base text-gray-700 dark:text-gray-400 font-medium leading-relaxed">
             {percentage >= 90 && (
               <div className="flex items-center justify-center space-x-2">
                 <span className="text-lg">🎓</span>
@@ -202,8 +202,8 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
       </div>
 
       {/* Share Results */}
-      <div className="mt-8 pt-6 border-t border-white/20 dark:border-gray-700/50 relative z-10">
-        <p className="text-sm text-gray-500 dark:text-gray-400 mb-4 font-medium">
+      <div className="mt-8 pt-6 border-t border-gray-200/50 dark:border-gray-700/50 relative z-10">
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-4 font-medium">
           Share your results:
         </p>
         <button
@@ -222,7 +222,7 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
               alert('Result copied to clipboard!');
             }
           }}
-          className="inline-flex items-center space-x-3 px-6 py-3 rounded-xl bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm border border-white/30 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:bg-white/80 dark:hover:bg-gray-800/80 transition-all duration-300 hover:scale-105 hover:shadow-lg font-medium"
+          className="inline-flex items-center space-x-3 px-6 py-3 rounded-xl bg-white/80 dark:bg-gray-800/60 backdrop-blur-sm border border-gray-200/50 dark:border-white/30 text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:bg-white dark:hover:bg-gray-800/80 transition-all duration-300 hover:scale-105 hover:shadow-lg font-medium"
         >
           <span className="text-lg">📱</span>
           <span>Share Result</span>

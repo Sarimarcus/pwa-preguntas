@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import PWAInstallButton from "./components/PWAInstallButton";
 import ServiceWorkerRegistration from "./components/ServiceWorkerRegistration";
+import ThemeToggle from "./components/ThemeToggle";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -64,7 +65,10 @@ export default function RootLayout({
               <h1 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 dark:text-white truncate">
                 🧠 PWA Preguntas
               </h1>
-              <PWAInstallButton />
+              <div className="flex items-center space-x-3">
+                <ThemeToggle />
+                <PWAInstallButton />
+              </div>
             </div>
           </header>
 
