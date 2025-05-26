@@ -28,10 +28,10 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
   };
 
   const getScoreColor = () => {
-    if (percentage >= 80) return "text-green-600 dark:text-green-400";
-    if (percentage >= 60) return "text-blue-600 dark:text-blue-400";
-    if (percentage >= 40) return "text-yellow-600 dark:text-yellow-400";
-    return "text-red-600 dark:text-red-400";
+    if (percentage >= 80) return "text-green-700 dark:text-green-400";
+    if (percentage >= 60) return "text-blue-700 dark:text-blue-400";
+    if (percentage >= 40) return "text-yellow-700 dark:text-yellow-400";
+    return "text-red-700 dark:text-red-400";
   };
 
   const getBackgroundGradient = () => {
@@ -60,28 +60,28 @@ export default function QuizResult({ score, totalQuestions, onRestart, onNewQuiz
 
       {/* Score Display */}
       <div className="mb-6 sm:mb-8 relative z-10">
-        <div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 border border-white/30 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
+        <div className="bg-white/90 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 border border-gray-200/50 dark:border-white/30 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 lg:space-x-8">
             {/* Score Fraction */}
             <div className="text-center">
               <div className={`text-3xl sm:text-4xl lg:text-5xl font-black ${getScoreColor()} bg-gradient-to-b from-current to-current/80 bg-clip-text text-transparent`}>
                 {score}/{totalQuestions}
               </div>
-              <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium">
+              <div className="text-xs sm:text-sm text-gray-700 dark:text-gray-400 font-medium">
                 Correct Answers
               </div>
             </div>
 
             {/* Divider */}
-            <div className="hidden sm:block w-px h-16 lg:h-20 bg-gradient-to-b from-transparent via-gray-300 dark:via-gray-600 to-transparent"></div>
-            <div className="sm:hidden w-16 h-px bg-gradient-to-r from-transparent via-gray-300 dark:via-gray-600 to-transparent"></div>
+            <div className="hidden sm:block w-px h-16 lg:h-20 bg-gradient-to-b from-transparent via-gray-400 dark:via-gray-600 to-transparent"></div>
+            <div className="sm:hidden w-16 h-px bg-gradient-to-r from-transparent via-gray-400 dark:via-gray-600 to-transparent"></div>
 
             {/* Percentage */}
             <div className="text-center">
               <div className={`text-3xl sm:text-4xl lg:text-5xl font-black ${getScoreColor()} bg-gradient-to-b from-current to-current/80 bg-clip-text text-transparent`}>
                 {percentage}%
               </div>
-              <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 font-medium">
+              <div className="text-xs sm:text-sm text-gray-700 dark:text-gray-400 font-medium">
                 Accuracy
               </div>
             </div>
