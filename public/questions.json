@@ -1,0 +1,442 @@
+[
+    {
+        "id": 1,
+        "question": "What is the capital of France?",
+        "options": [
+            "London",
+            "Berlin",
+            "Paris",
+            "Madrid"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 2,
+        "question": "Which planet is known as the Red Planet?",
+        "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 3,
+        "question": "What is 2 + 2?",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 4,
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Michelangelo"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 5,
+        "question": "What is the largest ocean on Earth?",
+        "options": [
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean",
+            "Pacific Ocean"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 6,
+        "question": "Which programming language is this project built with?",
+        "options": [
+            "Python",
+            "JavaScript",
+            "Java",
+            "C++"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 7,
+        "question": "What does HTML stand for?",
+        "options": [
+            "Hypertext Markup Language",
+            "High Tech Modern Language",
+            "Home Tool Markup Language",
+            "Hyperlink and Text Markup Language"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 8,
+        "question": "Which year did World War II end?",
+        "options": [
+            "1944",
+            "1945",
+            "1946",
+            "1947"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 9,
+        "question": "What is the chemical symbol for gold?",
+        "options": [
+            "Go",
+            "Gd",
+            "Au",
+            "Ag"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 10,
+        "question": "Which is the smallest country in the world?",
+        "options": [
+            "Monaco",
+            "Vatican City",
+            "San Marino",
+            "Liechtenstein"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 11,
+        "question": "What is the fastest land animal?",
+        "options": [
+            "Lion",
+            "Cheetah",
+            "Leopard",
+            "Tiger"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 12,
+        "question": "Which element has the chemical symbol 'O'?",
+        "options": [
+            "Osmium",
+            "Oxygen",
+            "Opium",
+            "Ozone"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 13,
+        "question": "In which year was the first iPhone released?",
+        "options": [
+            "2006",
+            "2007",
+            "2008",
+            "2009"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 14,
+        "question": "What is the longest river in the world?",
+        "options": [
+            "Amazon River",
+            "Nile River",
+            "Mississippi River",
+            "Yangtze River"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 15,
+        "question": "Which planet is closest to the Sun?",
+        "options": [
+            "Venus",
+            "Earth",
+            "Mercury",
+            "Mars"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 16,
+        "question": "What does 'WWW' stand for?",
+        "options": [
+            "World Wide Web",
+            "World Wide Website",
+            "World Wide Wiki",
+            "World Wide Window"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 17,
+        "question": "Which mammal is known to have the most powerful bite?",
+        "options": [
+            "Lion",
+            "Tiger",
+            "Hippo",
+            "Crocodile"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 18,
+        "question": "What is the capital of Australia?",
+        "options": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Brisbane"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 19,
+        "question": "Which gas makes up most of Earth's atmosphere?",
+        "options": [
+            "Oxygen",
+            "Carbon Dioxide",
+            "Nitrogen",
+            "Hydrogen"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 20,
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": [
+            "Charles Dickens",
+            "William Shakespeare",
+            "Jane Austen",
+            "Mark Twain"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 21,
+        "question": "What is the hardest natural substance on Earth?",
+        "options": [
+            "Gold",
+            "Iron",
+            "Diamond",
+            "Quartz"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 22,
+        "question": "Which ocean is the Bermuda Triangle located in?",
+        "options": [
+            "Pacific Ocean",
+            "Atlantic Ocean",
+            "Indian Ocean",
+            "Arctic Ocean"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 23,
+        "question": "What is the largest mammal in the world?",
+        "options": [
+            "African Elephant",
+            "Blue Whale",
+            "Giraffe",
+            "Polar Bear"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 24,
+        "question": "Which programming language was created by Guido van Rossum?",
+        "options": [
+            "Java",
+            "Python",
+            "C++",
+            "Ruby"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 25,
+        "question": "What is the smallest unit of matter?",
+        "options": [
+            "Molecule",
+            "Atom",
+            "Proton",
+            "Electron"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 26,
+        "question": "Which country has the most time zones?",
+        "options": [
+            "Russia",
+            "United States",
+            "China",
+            "France"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 27,
+        "question": "What is the currency of Japan?",
+        "options": [
+            "Yuan",
+            "Won",
+            "Yen",
+            "Rupee"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 28,
+        "question": "Which organ in the human body produces insulin?",
+        "options": [
+            "Liver",
+            "Kidney",
+            "Pancreas",
+            "Heart"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 29,
+        "question": "What is the tallest mountain in the world?",
+        "options": [
+            "K2",
+            "Mount Everest",
+            "Mount Kilimanjaro",
+            "Mount McKinley"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 30,
+        "question": "Which social media platform is known for its 280-character limit?",
+        "options": [
+            "Facebook",
+            "Instagram",
+            "Twitter",
+            "LinkedIn"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 31,
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+            "Saturn",
+            "Jupiter",
+            "Neptune",
+            "Uranus"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 32,
+        "question": "Which vitamin is produced when skin is exposed to sunlight?",
+        "options": [
+            "Vitamin A",
+            "Vitamin B",
+            "Vitamin C",
+            "Vitamin D"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "id": 33,
+        "question": "What does 'CPU' stand for in computer terms?",
+        "options": [
+            "Central Processing Unit",
+            "Computer Processing Unit",
+            "Central Program Unit",
+            "Computer Program Unit"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "id": 34,
+        "question": "Which continent is the Sahara Desert located on?",
+        "options": [
+            "Asia",
+            "Africa",
+            "Australia",
+            "South America"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 35,
+        "question": "What is the most abundant element in the universe?",
+        "options": [
+            "Oxygen",
+            "Carbon",
+            "Hydrogen",
+            "Helium"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 36,
+        "question": "Which famous scientist developed the theory of relativity?",
+        "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Stephen Hawking"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 37,
+        "question": "What is the capital of Canada?",
+        "options": [
+            "Toronto",
+            "Vancouver",
+            "Ottawa",
+            "Montreal"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 38,
+        "question": "Which is the largest continent by area?",
+        "options": [
+            "Africa",
+            "Asia",
+            "North America",
+            "Europe"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "id": 39,
+        "question": "What is the boiling point of water at sea level?",
+        "options": [
+            "90°C",
+            "95°C",
+            "100°C",
+            "105°C"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "id": 40,
+        "question": "Which company created the Android operating system?",
+        "options": [
+            "Apple",
+            "Microsoft",
+            "Google",
+            "Samsung"
+        ],
+        "correctAnswer": 2
+    }
+]

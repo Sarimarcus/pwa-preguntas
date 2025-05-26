@@ -1,0 +1,26 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="512" height="512" rx="64" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Question mark symbol -->
+  <circle cx="256" cy="180" r="60" fill="white" opacity="0.15"/>
+  <path d="M256 120 C290 120 318 148 318 182 C318 216 290 244 256 244 C222 244 194 216 194 182 C194 148 222 120 256 120 Z" fill="none" stroke="white" stroke-width="16" stroke-linecap="round"/>
+  <path d="M256 270 L256 300" stroke="white" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="256" cy="340" r="12" fill="white"/>
+  
+  <!-- Quiz/Book elements -->
+  <rect x="140" y="380" width="232" height="100" rx="20" fill="white" opacity="0.1"/>
+  <rect x="160" y="400" width="192" height="12" rx="6" fill="white" opacity="0.7"/>
+  <rect x="160" y="420" width="140" height="12" rx="6" fill="white" opacity="0.5"/>
+  <rect x="160" y="440" width="160" height="12" rx="6" fill="white" opacity="0.5"/>
+  
+  <!-- Success checkmark -->
+  <circle cx="380" cy="150" r="24" fill="#10b981" opacity="0.9"/>
+  <path d="M370 150 L378 158 L390 142" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
